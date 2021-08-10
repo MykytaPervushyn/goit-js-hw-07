@@ -8,7 +8,7 @@ incrementCounterButtonEl.addEventListener('click', onIncrementClick);
 
 
 function onDecrementClick() {
-    counterValueEl.textContent -= 1;
+    counterValueEl.textContent = Number(counterValueEl.textContent) - 1;
 }
 
 function onIncrementClick() {
